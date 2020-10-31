@@ -240,6 +240,24 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>CQCbPg==</data>
+				<key>framebuffer-flags</key>
+				<data>CxMgAA==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
+				<key>device-id</key>
+				<data>mz4AAA==</data>
+			</dict>
+		<dict>
 			<key>PciRoot(0x0)/Pci(0x1D,0x6)/Pci(0x0,0x1)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
