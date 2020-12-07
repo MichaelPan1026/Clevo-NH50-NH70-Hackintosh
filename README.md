@@ -1,5 +1,5 @@
 # OpenCore Bootloader for Hackintosh on Clevo NH5x/NH70 series
-+ 支持 Clevo NH5xRD_RC_RA_RH(Q)/NH70RD_RC_RA_RH(Q) 系列的所有机器。
++ 支持 Clevo NH5xRD_RC_RA_RH(Q)/NH70RD_RC_RA_RH(Q) 系列的所有机器（不支持Insyde类机型）
 + 所有功能基本可用。**支持 macOS Big Sur。**
 + **安装之前需要先刷入蓝天原厂 BIOS，并手动禁用 SGX、Fastboot、VT-d、Platform Trust、CFG Lock。**
     - SGX Fast Boot VT-d: Advanced -> Advanced Chipset Control
