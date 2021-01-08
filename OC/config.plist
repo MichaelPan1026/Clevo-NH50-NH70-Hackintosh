@@ -54,14 +54,6 @@
 				<key>Path</key>
 				<string>SSDT-DEGPU.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-GPRW.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -780,7 +772,7 @@
 			<key>MLB</key>
 			<string>C02848301GUJH4R1F</string>
 			<key>ProcessorType</key>
-			<integer>1793</integer>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data>4bUGORtr</data>
 			<key>SpoofVendor</key>
