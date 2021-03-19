@@ -5,9 +5,14 @@
 	<key>files</key>
 	<dict>
 		<key>Resources/SSDT-BATC.dsl</key>
-		<data>
-		GR5jQT6YEajh2JAV07GEMZ4MEEg=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			GR5jQT6YEajh2JAV07GEMZ4MEEg=
+			</data>
+			<key>optional</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
