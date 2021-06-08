@@ -24,7 +24,8 @@
 + 可选项目：禁用 SGX、Fastboot、VT-d、Platform Trust（下面是 BIOS 中的位置）
   - SGX Fast Boot VT-d: Advanced -> Advanced Chipset Control
   - Platform Trust: Advanced -> Chipset Configuration
-+ 开启 HIDPI（Big Sur）：`bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev/hidpi.sh)"`
++ 开启 HIDPI（Big Sur及以上）：`bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev/hidpi.sh)"`
++ 支持 macOS Monterey（OTA），升级后开机读条很慢，蓝牙和内置喇叭不可用，谨慎更新！
 
 -----------------------------------------
 
