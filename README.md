@@ -25,7 +25,7 @@
   - SGX Fast Boot VT-d: Advanced -> Advanced Chipset Control
   - Platform Trust: Advanced -> Chipset Configuration
 + 开启 HIDPI（Big Sur及以上）：`bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev/hidpi.sh)"`
-+ （升级 0.7.0 后）支持 macOS Monterey Developer Beta（OTA），升级后开机读条很慢，蓝牙和内置喇叭不可用，谨慎更新！
++ （升级 0.7.0 后）支持 macOS Monterey Developer Beta（OTA），升级后开机读条比较慢是正常现象，~~蓝牙和内置喇叭不可用~~，测试版谨慎更新！
 
 -----------------------------------------
 
