@@ -15,17 +15,14 @@
 + **安装过程中一定不要联网，安装完成后一定记得更换三码**
 
 ## 其他
-+ 关闭 CFG Lock：
-    - 方法一：魔改 BIOS，适用于对 BIOS 文件修改较熟练的用户（BIOS中位置：Advanced -> Power & Performance -> CPU - Power Management Control -> CPU Lock Configuration）
-    - 方法二：通过 OpenCore 的 EFI Tools（CFGLock.efi）
-
++ 关闭 CFG Lock：使用 OpenCore 选单中的 GRUB Shell，回车进入命令行，输入`setup_var 0x3E 0x0`，回车，然后`exit`退出
 >关闭 CFG Lock之后需要将配置文件`config.plist`中`AppleCpuPmCfgLock`和`AppleXcpmCfgLock`两项 Quirks 禁用
 
-+ 可选项目：禁用 SGX、Fastboot、VT-d、Platform Trust（下面是 BIOS 中的位置）
-  - SGX Fast Boot VT-d: Advanced -> Advanced Chipset Control
++ 可选项目（需要在 BIOS 中通过文件启动 GRUB Shell 来调出完整选项，输入`setup_var 0x133 0x1`）：禁用 SGX、Fastboot、VT-d、Platform Trust（下面是 BIOS 中的位置）
+  - SGX、Fast Boot、VT-d: Advanced -> Advanced Chipset Control
   - Platform Trust: Advanced -> Chipset Configuration
 + 开启 HIDPI（Big Sur及以上）：`bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev/hidpi.sh)"`
-+ 支持 macOS Monterey Developer Beta（OTA），测试版请谨慎更新！
++ 支持 macOS Monterey Developer Beta（OTA）
 
 -----------------------------------------
 
