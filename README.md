@@ -22,7 +22,6 @@
   - SGX、Fast Boot、VT-d: Advanced -> Advanced Chipset Control
   - Platform Trust: Advanced -> Chipset Configuration
 + 开启 HIDPI（Big Sur及以上）：`bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev/hidpi.sh)"`
-+ 支持 macOS Monterey Developer Beta（OTA）
 
 -----------------------------------------
 
