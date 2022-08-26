@@ -2,6 +2,7 @@
 
 ## 简介
 + 支持 Clevo NH5xRD_RC_RA_RH(Q)/NH70RD_RC_RA_RH(Q) 系列的所有机器
++ 支持 macOS 13 Ventura Beta
 +  除睡眠外几乎完美
 
 ## 前提准备及安装方法
@@ -21,7 +22,7 @@
 + 可选项目（需要在 BIOS 中通过文件启动 GRUB Shell 来调出完整选项，输入`setup_var 0x133 0x1`）：禁用 SGX、Fastboot、VT-d、Platform Trust（下面是 BIOS 中的位置）
   - SGX、Fast Boot、VT-d: Advanced -> Advanced Chipset Control
   - Platform Trust: Advanced -> Chipset Configuration
-+ 开启 HIDPI（Big Sur及以上）：`bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev/hidpi.sh)"`
++ 开启 HIDPI（Big Sur 及以上）：`bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev/hidpi.sh)"`
 
 -----------------------------------------
 
